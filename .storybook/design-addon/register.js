@@ -65,7 +65,7 @@ const Content = () => {
 
 addons.register('my/design-addon', () => {
   addons.add('design-addon/panel', {
-    title: 'assets',
+    title: 'Design Assets',
     type: types.PANEL,
     render: ({ active, key }) => (
       <AddonPanel active={active} key={key}>
